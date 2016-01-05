@@ -1,3 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainnav {
+    float: left;
+    width: 100%;
+    padding-top: ;
+    margin-top: .5rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+li {
+    transition: all .9s ease-in-out;
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    color: #0404B4;
+    text-decoration: none;
+    /*--------*/
+    padding-top: ;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-family: 'Bree Serif', serif;
+    align: left;
+    list-style: none;
+    background-color: #FFCF35;
+    align-content: center;
+    text-align: center;
+    /*--------*/
+}
+
+a:hover {
+    transform: scale(1);
+    color: #009eff;
+}
+
+
+/*----------------------------------------------------*/
 
 body {
     /*background-color: black;*/
@@ -65,9 +109,15 @@ h1 {
 
 /*=========================================================================*/
 
+a {
+    color: #1453FF;
+}
+
 h2 {
     font-family: 'Russo One', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: center;
 }
 
 span {
@@ -110,6 +160,7 @@ table {
     background-color: #E3E3DD;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 0rem;
     text-align: center;
     border: solid 2.5px orange;
     max-width: 100%;
@@ -120,14 +171,15 @@ table {
     overflow: hidden;
 }
 
-caption {
+
+/*caption {
     font-family: 'Amiri', serif;
     font-size: 1.75rem;
     font-weight: 900;
     font-style: oblique;
     color: #131D7F;
     background-color: green;
-}
+}*/
 
 tr:hover {
     background-color: hsl(89, 96%, 68%);
@@ -161,12 +213,12 @@ table {
     width: 99%;
 }
 
-
-/*h1 {
-    text-align: center;
-    font-size: 40px;
-    color: hsl(26, 73%, 42%);
-}*/
+p {
+    font-family: 'Russo One', sans-serif;
+    margin-top: 1.1rem;
+    margin-bottom: 2 rem;
+    font-size: 1rem;
+}
 
 
 /*===================================================================================================================tablet app===========================*/
@@ -180,17 +232,44 @@ table {
         font-size: 3.25rem;
     }
     table {
-        width: 75%
+        margin-top: .75rem;
+        max-width: 83.25%
     }
     td {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
     }
     caption {
         font-size: 2rem;
     }
     h2 {
         font-family: 'Russo One', sans-serif;
-        font-size: 2.15rem;
+        font-size: 1.65rem;
+        text-align: center;
+        color: black;
+        ;
+        font-style: italic;
+    }
+    .mainnav ul {
+        max-width: 97%;
+    }
+    .mainnav ul li {
+        float: left;
+        width: 100%;
+        background-color: gold;
+        font-size: 31px;
+        margin-right:
+    }
+    .mainnav li a {
+        display: inline-block;
+        max-width: 30%;
+        background-color: gold;
+    }
+    p {
+        display: /*none:*/
+        font-family: 'Russo One', sans-serif;
+        margin-top: .1rem;
+        margin-bottom: 1 rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -206,16 +285,38 @@ table {
         font-size: 3.15rem;
     }
     h2 {
+        text-align: center;
         font-family: 'Russo One', sans-serif;
-        font-size: 2.12rem;
+        font-size: 1.67rem;
+        font-style: italic;
+        color: black;
     }
     table {
-        width: 62%;
+        margin-bottom: 6rem;
+        margin-top: 4 rem;
+        max-width: 67.75%;
+        margin-right: 1rem;
+        margin-right: auto;
+        float: left
     }
     td {
-        font-size: 1.72rem;
+        font-size: 1.69rem;
     }
     caption {
         font-size: 2.2rem;
+    }
+    .mainnav {
+        margin-top: 9rem;
+        float: left;
+        max-width: 22%;
+    }
+    p {
+        max-width: 70%;
+        font-family: 'Russo One', sans-serif;
+        margin-top: 3.7rem;
+        margin-bottom: 2 rem;
+        font-size: 1.21rem;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
